@@ -13,7 +13,11 @@ app.on('ready', _ => {
         width: 400
     });
 
-    mainWindow.loadURL(path.join(__dirname, 'countdown.html'));
+    mainWindow.loadURL(url.format({
+        pathname: path.join(__dirname, 'countdown.html'),
+        protocol: 'file',
+        slashes: true
+    }));
 
     mainWindow.on('closed', _ => {
         console.log('closed');
