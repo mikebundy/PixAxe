@@ -1409,8 +1409,11 @@
     <Content Include="node_modules\xtend\mutable.js" />
     <Content Include="node_modules\xtend\test.js" />
     <Content Include="node_modules\yauzl\index.js" />
+    <Content Include="src\countdown.css" />
     <Content Include="src\countdown.html" />
+    <Content Include="src\countdown.js" />
     <Content Include="src\main.js" />
+    <Content Include="src\renderer.js" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="node_modules\es6-promise\es6-promise.d.ts" />
